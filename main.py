@@ -53,7 +53,7 @@ class SRNI:
                 data.append(ip["ip"])
         return data
 
-    def getLasChristianConnection(self) -> any:
+    def getLasChristianConnection(self) -> dict:
         ips = self.isChristian()
         if not (ips):
             return print("Hoy no se ha conectado")
